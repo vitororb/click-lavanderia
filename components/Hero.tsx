@@ -18,7 +18,7 @@ export const Hero = () => {
             <div className="flex w-fit items-center gap-2 bg-secondary/20 backdrop-blur-sm rounded-full px-4 py-2">
               <ClockIcon size={16} className="text-secondary" />
               <span className="text-accent/70 text-xs font-medium uppercase">
-                Aberto 24H
+                Aberto 24h
               </span>
             </div>
 
@@ -31,14 +31,12 @@ export const Hero = () => {
 
           {/* Hero content */}
           <h1 className="text-5xl font-normal text-accent">
-            Suas roupas limpas em um,{" "}
-            <span className="text-primary">Click</span>
+            Suas roupas limpas em um{" "}
+            <span className="text-primary font-family-montserrat">Click</span>
           </h1>
           <p className="text-lg text-accent/80 max-w-md">
-            Lavanderia de autoatendimento em Mineiros-GO. Roupas limpas e
-            cheirosas em apenas{" "}
-            <span className="text-accent font-medium">1 hora</span>, com sabão e
-            amaciante inclusos.
+            Lavanderia de autoatendimento em Mineiros-GO. Roupas limpas e secas
+            em aproximadamente 1 hora, com sabão e amaciante inclusos.
           </p>
 
           {/* Buttons */}
@@ -71,7 +69,7 @@ export const Hero = () => {
 
             <div className="flex flex-col">
               <h3 className="text-sm font-semibold text-white">
-                Lavagem completa em 28 minutos
+                Lavagem completa em cerca de 1 hora
               </h3>
               <span className="text-xs text-white">
                 Inclui lavagem + secagem

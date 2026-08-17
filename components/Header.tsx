@@ -34,7 +34,7 @@ export const Header = () => {
         </div>
 
         <Button
-          label="Nos Encontre"
+          label="Nos encontre"
           variant="secondary"
           href="#localizacao"
           className="hidden md:block"

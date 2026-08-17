@@ -11,7 +11,8 @@ export const Footer = () => {
         />
 
         <p className="text-xs text-white/80 text-center">
-          © 2023 Click Lavanderia. Todos os direitos reservados.
+          © {new Date().getFullYear()} Click Lavanderia. Todos os direitos
+          reservados.
         </p>
 
         <a

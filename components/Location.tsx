@@ -23,7 +23,7 @@ export const Location = () => {
             icon={<MapPinIcon />}
             title="Endereço"
             description={`${clickInfo.address}`}
-            href="https://www.google.com/maps/place/?q=place_id:ChIJQZQnUGcvY5MRF920qUzTnWo"
+            href="https://www.google.com/maps/place/CLICK+LAVANDERIA+EXPRESS/@-17.5566094,-52.5505623,17z/data=!3m1!4b1!4m6!3m5!1s0x93632f6750279441:0x6a9dd34ca9b4dd17!8m2!3d-17.5566094!4d-52.5505623!16s%2Fg%2F11x8t6s8f5?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
           />
           <InfoCard
             icon={<ClockIcon />}

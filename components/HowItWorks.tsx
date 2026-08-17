@@ -4,23 +4,23 @@ import { StepCard } from "./StepCard";
 const steps = [
   {
     num: "01",
-    title: "Chegue e escolha",
-    desc: "Entre na lavanderia, escolha a máquina disponível que deseja usar — lavadora ou secadora.",
+    title: "Separe suas roupas",
+    desc: "Utilize o cesto medidor da Click Lavanderia para respeitar a quantidade ideal de roupas para cada ciclo.",
   },
   {
     num: "02",
-    title: "Pague no Totem", // Formas de pagamento
-    desc: "No Totem, faça o pagamento para liberar a máquina.",
+    title: "Pague no Totem",
+    desc: "No Totem, selecione o serviço desejado: Lavar ou Secar e realize o pagamento.",
   },
   {
-    num: "03", // Sabão e amaciantes já inclusos
-    title: "Coloque suas roupas",
-    desc: "Usando o cesto medidor verifique a capacidade da máquina, coloque as roupas no equipamento selecionado e seguindo as instruções no painel.",
+    num: "03",
+    title: "Inicie o ciclo",
+    desc: "Coloque as roupas no equipamento escolhido. Em seguida, siga as instruções do painel para iniciar a lavagem ou secagem.",
   },
   {
     num: "04",
-    title: "Retire suas roupas",
-    desc: "Após o término do ciclo, retire suas roupas limpas e secas. Volte sempre!",
+    title: "Aproveite",
+    desc: "Aguarde o término do ciclo, retire suas roupas e aproveite: roupas limpas e secas em um Click!",
   },
 ];
 

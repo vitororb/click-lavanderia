@@ -13,7 +13,9 @@ export const Section = ({ id, title, subtitle, children }: Props) => {
         <span className="text-primary/80 font-semibold uppercase tracking-widest inline-block text-sm">
           {subtitle}
         </span>
-        <h2 className="text-accent text-4xl font-bold">{title}</h2>
+        <h2 className="text-accent text-4xl font-bold font-family-montserrat">
+          {title}
+        </h2>
       </div>
 
       <div className="max-w-6xl mx-auto px-6">{children}</div>

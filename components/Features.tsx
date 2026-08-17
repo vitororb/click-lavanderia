@@ -13,17 +13,17 @@ const features = [
   {
     icon: <SmartphoneIcon />,
     title: "Pagamento digital",
-    desc: "Pix, cartão de débito/crédito ou QR Code. Sem necessidade de moedas ou fichas.",
+    desc: "Pix, cartão de débito/crédito. Sem necessidade de moedas ou fichas.",
   },
   {
     icon: <ClockIcon />,
-    title: "Aberto 24h / 7 dias",
-    desc: "Lave quando preferir — de madrugada, fins de semana ou feriados. A escolha é sua.",
+    title: "Aberto 24h, todos os dias",
+    desc: "Lave quando preferir, de madrugada, fins de semana ou feriados. Estamos abertos todos os dias 24 horas!",
   },
   {
     icon: <ShieldIcon />,
     title: "Ambiente monitorado",
-    desc: "Câmeras de segurança e equipe de suporte disponível. Seu bem-estar em primeiro lugar.",
+    desc: "Câmeras de segurança disponível. Seu bem-estar em primeiro lugar.",
   },
   {
     icon: <ZapIcon />,
@@ -33,12 +33,12 @@ const features = [
   {
     icon: <WindIcon />,
     title: "Secadoras industriais",
-    desc: "Secagem completa em menos de 30 minutos. Roupas macias e sem umidade.",
+    desc: "Ciclos de secagem de até 45 minutos. Roupas macias e sem umidade.",
   },
   {
     icon: <SparklesIcon />,
     title: "Higiene garantida",
-    desc: "Máquinas higienizadas após cada uso com produto certificado pela Anvisa.",
+    desc: "Usamos em nossas lavagens produtos de uso profissional, biodegradáveis e hipoalergênicos.",
   },
 ];
 
@@ -46,7 +46,7 @@ export const Features = () => {
   return (
     <Section
       id="vantagens"
-      subtitle="Por que escolher a gente?"
+      subtitle="Por que escolher a Click?"
       title="Tudo que você precisa em um só lugar"
     >
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
