@@ -12,7 +12,7 @@ export const Price = () => {
         <h2 className="text-6xl text-white">R$ {clickInfo.price}</h2>
         <p>
           Sabão e amaciante já inclusos. Lave o que couber no cesto medidor - em
-          média de 20 a 25 peças.
+          média, 20 a 25 peças.
         </p>
         <Button
           label="Quero lavar minhas roupas"
