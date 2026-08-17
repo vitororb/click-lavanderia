@@ -4,17 +4,17 @@ import { StepCard } from "./StepCard";
 const steps = [
   {
     num: "01",
-    title: "Separe suas roupas",
+    title: "Separe",
     desc: "Utilize o cesto medidor da Click Lavanderia para respeitar a quantidade ideal de roupas para cada ciclo.",
   },
   {
     num: "02",
-    title: "Pague no Totem",
+    title: "Pague",
     desc: "No Totem, selecione o serviço desejado: Lavar ou Secar e realize o pagamento.",
   },
   {
     num: "03",
-    title: "Inicie o ciclo",
+    title: "Inicie",
     desc: "Coloque as roupas no equipamento escolhido. Em seguida, siga as instruções do painel para iniciar a lavagem ou secagem.",
   },
   {

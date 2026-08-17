@@ -1,6 +1,5 @@
 import {
   ArrowDownIcon,
-  ChevronDownIcon,
   ClockIcon,
   MessageCircleIcon,
   ZapIcon,
@@ -10,8 +9,29 @@ import { Button } from "./Button";
 
 export const Hero = () => {
   return (
-    <section className="relative flex flex-col min-h-screen justify-center gap-10 w-full p-6">
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto px-6 gap-4">
+    <section className="flex w-full pb-12 mt-44 md:mt-30">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto px-6 gap-4 items-center">
+        {/* Hero image */}
+        <div
+          className="relative w-full h-full min-h-100 bg-accent/10 rounded-2xl md:flex p-4 items-end bg-cover bg-center"
+          style={{ backgroundImage: "url('/click.jpg')" }}
+        >
+          <div className="absolute bottom-4 left-4 right-4 flex gap-4 items-center p-4 rounded-2xl h-fit bg-white/30 backdrop-blur-sm border border-white">
+            <div className="flex items-center justify-center bg-primary rounded-full p-2">
+              <ZapIcon size={24} className="text-white" />
+            </div>
+
+            <div className="flex flex-col">
+              <h3 className="text-sm font-semibold text-white">
+                Lavagem completa em cerca de 1 hora
+              </h3>
+              <span className="text-xs text-white">
+                Inclui lavagem + secagem
+              </span>
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-col gap-6">
           {/* Badges */}
           <div className="flex flex-wrap gap-2">
@@ -30,7 +50,7 @@ export const Hero = () => {
           </div>
 
           {/* Hero content */}
-          <h1 className="text-5xl font-normal text-accent">
+          <h1 className="text-5xl font-medium text-accent">
             Suas roupas limpas em um{" "}
             <span className="text-primary font-family-montserrat">Click</span>
           </h1>
@@ -56,37 +76,7 @@ export const Hero = () => {
             />
           </div>
         </div>
-
-        {/* Hero image */}
-        <div
-          className="relative w-full h-full bg-accent/10 rounded-2xl hidden md:flex p-4 items-end bg-cover bg-center"
-          style={{ backgroundImage: "url('/click.jpg')" }}
-        >
-          <div className="flex gap-4 items-center p-4 rounded-2xl h-fit w-full bg-white/30 backdrop-blur-sm border border-white">
-            <div className="flex items-center justify-center bg-primary rounded-full p-2">
-              <ZapIcon size={24} className="text-white" />
-            </div>
-
-            <div className="flex flex-col">
-              <h3 className="text-sm font-semibold text-white">
-                Lavagem completa em cerca de 1 hora
-              </h3>
-              <span className="text-xs text-white">
-                Inclui lavagem + secagem
-              </span>
-            </div>
-          </div>
-        </div>
       </div>
-
-      {/* Scroll indicator */}
-      <a
-        className="absolute left-1/2 -translate-x-1/2 bottom-12 flex flex-col items-center hover:text-primary justify-center gap-1 text-xs text-primary/70 uppercase"
-        href="#vantagens"
-      >
-        Saiba mais
-        <ChevronDownIcon size={14} className="animate-bounce" />
-      </a>
     </section>
   );
 };
