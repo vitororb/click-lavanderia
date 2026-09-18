@@ -40,7 +40,7 @@ export const Location = () => {
           <InfoCard
             icon={<MessageCircleIcon />}
             title="WhatsApp"
-            description={`+${clickInfo.phone.slice(0, 2)} (${clickInfo.phone.slice(2, 4)}) ${clickInfo.phone.slice(4, 9)}-${clickInfo.phone.slice(9, 13)}`}
+            description={clickInfo.phoneFormatted}
             href={`https://wa.me/${clickInfo.phone}`}
           />
           <InfoCard
