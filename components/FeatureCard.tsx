@@ -14,9 +14,7 @@ export const FeatureCard = ({ title, description, icon }: Props) => {
 
       {/* Title and Description */}
       <h3 className="text-lg font-bold text-accent">{title}</h3>
-      <p className="text-muted text-sm leading-relaxed text-accent/80">
-        {description}
-      </p>
+      <p className="text-sm leading-relaxed text-accent/80">{description}</p>
     </div>
   );
 };

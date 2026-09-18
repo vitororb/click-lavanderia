@@ -1,21 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #5cc6d0;
-  --foreground: #171717;
-
   --primary: #5cc6d0;
   --secondary: #ffd700;
   --accent: #3a3a3a;
+  --foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
   --color-accent: var(--accent);
+  --color-foreground: var(--foreground);
 
   --font-family-montserrat: var(--font-montserrat);
 }
