@@ -11,7 +11,7 @@ import { Button } from "./Button";
 
 export const Hero = () => {
   return (
-    <section className="flex w-full pb-12 mt-44 md:mt-30">
+    <section className="flex w-full py-12">
       <div className="grid md:grid-cols-2 max-w-6xl mx-auto px-6 gap-4 items-center">
         {/* Hero image */}
         <div className="relative w-full h-full min-h-100 bg-accent/10 rounded-2xl overflow-hidden md:flex p-4 items-end">
