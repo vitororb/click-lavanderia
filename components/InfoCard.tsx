@@ -29,7 +29,7 @@ export const InfoCard = ({
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className={`${redirect ? "hover:text-primary hover:underline" : ""} text-sm text-accent/80`}
+          className={`${redirect ? "hover:text-primary hover:underline" : ""} text-sm text-accent/80 wrap-anywhere`}
         >
           {description}
           {redirect && (
