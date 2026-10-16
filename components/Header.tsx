@@ -1,4 +1,6 @@
 import { MapPinIcon } from "lucide-react";
+import Image from "next/image";
+import logo from "../public/logos/logo-lateral-branca.png";
 import { Button } from "./Button";
 
 type HeaderItemProps = {
@@ -15,14 +17,17 @@ const MenuItens = [
 
 export const Header = () => {
   return (
-    <header className="bg-primary flex flex-col items-start gap-4 py-4 fixed top-0 left-0 right-0 z-50 shadow-md">
+    <header className="bg-primary flex flex-col items-start gap-4 py-4 sticky top-0 z-50 shadow-md">
       <div className="flex items-center justify-between max-w-6xl px-6 mx-auto w-full">
         {/* Logo */}
         <a href="#top">
-          <img
-            src="/logos/logo-lateral-branca.png"
+          <Image
+            src={logo}
             alt="Click Lavanderia Logo"
-            className="h-10 w-auto"
+            width={216}
+            height={40}
+            className="h-10 w-54 object-contain"
+            preload
           />
         </a>
 
