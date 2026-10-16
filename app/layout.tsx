@@ -10,6 +10,8 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Click Lavanderia",
+  description:
+    "Lavanderia de autoatendimento 24h em Mineiros-GO. Roupas limpas e secas em cerca de 1 hora, com sabão e amaciante inclusos.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
