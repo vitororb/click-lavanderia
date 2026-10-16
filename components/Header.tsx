@@ -1,4 +1,6 @@
 import { MapPinIcon } from "lucide-react";
+import Image from "next/image";
+import logo from "../public/logos/logo-lateral-branca.png";
 import { Button } from "./Button";
 
 type HeaderItemProps = {
@@ -19,10 +21,13 @@ export const Header = () => {
       <div className="flex items-center justify-between max-w-6xl px-6 mx-auto w-full">
         {/* Logo */}
         <a href="#top">
-          <img
-            src="/logos/logo-lateral-branca.png"
+          <Image
+            src={logo}
             alt="Click Lavanderia Logo"
-            className="h-10 w-auto"
+            width={216}
+            height={40}
+            className="h-10 w-54 object-contain"
+            preload
           />
         </a>
 

@@ -4,7 +4,9 @@ import {
   MessageCircleIcon,
   ZapIcon,
 } from "lucide-react";
+import Image from "next/image";
 import clickInfo from "../data/clickInfo.json";
+import heroImage from "../public/click.jpg";
 import { Button } from "./Button";
 
 export const Hero = () => {
@@ -12,10 +14,17 @@ export const Hero = () => {
     <section className="flex w-full pb-12 mt-44 md:mt-30">
       <div className="grid md:grid-cols-2 max-w-6xl mx-auto px-6 gap-4 items-center">
         {/* Hero image */}
-        <div
-          className="relative w-full h-full min-h-100 bg-accent/10 rounded-2xl md:flex p-4 items-end bg-cover bg-center"
-          style={{ backgroundImage: "url('/click.jpg')" }}
-        >
+        <div className="relative w-full h-full min-h-100 bg-accent/10 rounded-2xl overflow-hidden md:flex p-4 items-end">
+          <Image
+            src={heroImage}
+            alt="Interior da Click Lavanderia"
+            fill
+            sizes="(min-width: 1152px) 560px, (min-width: 768px) 50vw, 100vw"
+            className="object-cover"
+            placeholder="blur"
+            preload
+          />
+
           <div className="absolute bottom-4 left-4 right-4 flex gap-4 items-center p-4 rounded-2xl h-fit bg-white/30 backdrop-blur-sm border border-white">
             <div className="flex items-center justify-center bg-primary rounded-full p-2">
               <ZapIcon size={24} className="text-white" />
