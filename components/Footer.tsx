@@ -4,7 +4,7 @@ import logo from "../public/logos/logo-baixo-branca.png";
 
 export const Footer = () => {
   return (
-    <footer className="flex items-center justify-center min-h-20 bg-primary mx-auto w-screen">
+    <footer className="flex items-center justify-center min-h-20 bg-primary">
       <div className="flex gap-4 items-center justify-between max-w-6xl mx-auto px-6 w-full">
         <Image
           src={logo}
